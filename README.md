@@ -44,30 +44,30 @@ This project focuses on predicting whether a customer is likely to churn, enabli
 
 # Project Workflow
 
-1)Data Loading & Cleaning
+## 1)Data Loading & Cleaning
   * Removed identifier columns
   * Handled missing values
   * Converted categorical features into numeric format
-2)Exploratory Data Analysis (EDA
+## 2)Exploratory Data Analysis (EDA)
   * Analyzed churn distribution
   * Explored churn relationships with tenure and billing patterns
-3)Feature Engineering
+## 3)Feature Engineering
   * One-hot encoding for categorical variables
   * Feature scaling using StandardScaler
-4)Handling Class Imbalance
+## 4)Handling Class Imbalance
   * Applied class weighting to address churn imbalanc
-5)Model Building
+## 5)Model Building
   * Baseline model: Logistic Regression
   * Advanced model: Random Forest Classifier
-6)Model Evaluation
+## 6)Model Evaluation
   * Accuracy
   * Confusion Matrix
   * Classification Report
   * ROC-AUC Score
   * Cross-validation for robustness
-7)Hyperparameter Tuning
+## 7)Hyperparameter Tuning
   * GridSearchCV to optimize Random Forest performance
-8)Explainability
+## 8)Explainability
   * Feature importance analysis to identify churn drivers
-9)Model Deployment Readiness
+## 9)Model Deployment Readiness
   * Saved final trained model using Joblib
